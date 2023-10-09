@@ -6,13 +6,68 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <ImageView
+        android:id="@+id/imgPortada"
+        android:layout_width="265dp"
+        android:layout_height="227dp"
+        android:layout_marginTop="72dp"
+        android:src="@tools:sample/avatars"
+        app:layout_constraintTop_toBottomOf="@+id/serializado"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="71dp" />
+
     <TextView
+        android:id="@+id/titulo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:text="TextView"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="176dp"
+        tools:layout_editor_absoluteY="85dp" />
+
+    <TextView
+        android:id="@+id/director"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="176dp"
+        tools:layout_editor_absoluteY="159dp" />
+
+    <TextView
+        android:id="@+id/actores"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="176dp"
+        tools:layout_editor_absoluteY="235dp" />
+
+    <TextView
+        android:id="@+id/portada"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="176dp"
+        tools:layout_editor_absoluteY="282dp" />
+
+    <TextView
+        android:id="@+id/serializado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="66dp"
+        tools:layout_editor_absoluteY="323dp" />
+
+    <TextView
+        android:id="@+id/aCadena"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="278dp"
+        tools:layout_editor_absoluteY="323dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

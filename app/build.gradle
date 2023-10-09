@@ -4,7 +4,7 @@ plugins {
 
 android {
     namespace 'com.example.ficherosjsonejemplo'
-    compileSdk 33
+    compileSdk 34
 
     defaultConfig {
         applicationId "com.example.ficherosjsonejemplo"
@@ -36,6 +36,8 @@ dependencies {
 
     //Librería GSON para serialización y deserialización deJSON
     implementation 'com.google.code.gson:gson:2.10.1'
+    //Librería Glide para carga de imágenes desde url
+    implementation 'com.github.bumptech.glide:glide:4.16.0'
 
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'androidx.test.ext:junit:1.1.5'

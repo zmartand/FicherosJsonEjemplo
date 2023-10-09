@@ -18,6 +18,18 @@ public class Pelicula {
         this.actores = (ArrayList) actores;
     }
 
+    public void addActor(String actor){
+        this.actores.add(actor);
+    }
+    public void deleteActor(String actor){
+        for (String actor_existente: actores){
+            if (actor_existente.compareTo(actor) == 0){
+                actores.remove(actor);
+            }
+        }
+    }
+
+
     @Override
     public String toString() {
         return "Pelicula{" +
